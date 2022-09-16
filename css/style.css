@@ -1,0 +1,116 @@
+
+body {
+  margin:0;
+  padding:0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  text-align:center;
+  white-space:nowrap;
+}
+  
+h1 {
+  font-family: 'Ms Madi', cursive;
+  font-size: 50px;
+  color: darkblue;
+}
+
+h2 {
+  color:darkgreen;
+}
+
+h3 {
+  color:darkgreen;
+}
+
+a {
+  color:darkblue;
+  text-decoration:none;
+}
+
+a:hover {
+  color:black;
+  background-color:gold;
+  text-decoration:underline;
+  
+}
+
+a.button {
+	background-color:lightblue;
+	border-radius:30px;
+	padding:10px;
+  color:black;
+  font-size:20px;
+}
+
+hr {
+  border:2px solid blue;
+  border-radius:2px;
+}
+img.floatright {
+  float:right;
+  height:auto;
+  
+}
+
+img.floatleft {
+  float:left;
+}
+.top {
+  text-align: center;
+  margin: 5px;
+  margin-top:300px;
+}
+
+.middle {
+  padding: 5px;
+  margin:10px;
+}
+
+.languages {
+  margin-left:20%;
+  padding:0px;
+  column-count:2;
+}
+
+.leadership{
+  margin-left:10%;
+  margin-right:10%;
+  text-align:left;
+  column-count:2;
+  overflow:hidden;
+}
+
+.skills {
+  margin-left:20%;
+  column-count:1;
+  height:300px;
+}
+
+.bottom {
+  border-top:3px solid;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.logo {
+  position:absolute;
+  bottom:450px;
+  left:38.5%;
+}
+.headshot {
+  position:absolute;
+  bottom:160px;
+  left:44%;
+  border-radius:200px;
+}
+
+.forms {
+  text-align:left;
+  height:500px;
+  column-width:100px;
+  column-count:2;
+}
+
+.closer {
+  text-align:right;
+}
